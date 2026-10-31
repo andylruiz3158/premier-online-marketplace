@@ -24,6 +24,31 @@ header nav a {
   font-size: 13px;
   white-space: nowrap;
 }
+
+@media (max-width: 600px) {
+  header .wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header .brand {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  header nav {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  header nav a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
+
+  
 </style>
 </head>
 <body>
